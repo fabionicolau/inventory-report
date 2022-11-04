@@ -15,7 +15,7 @@ data_mock = [
         "nome_do_produto": "Sprite",
         "nome_da_empresa": "Coca-Cola Company",
         "data_de_fabricacao": "2020-04-01",
-        "data_de_validade": "2022-12-01",
+        "data_de_validade": "2023-12-01",
         "numero_de_serie": "1212312d6789",
         "instrucoes_de_armazenamento": "Manter em local seco",
     },
@@ -35,7 +35,7 @@ def test_decorar_relatorio():
         "\033[32mData de fabricação mais antiga:\033[0m"
         + " \033[36m2020-01-01\033[0m\n"
         "\033[32mData de validade mais próxima:\033[0m"
-        + " \033[36m2022-11-02\033[0m\n"
+        + " \033[36m2023-12-01\033[0m\n"
         "\033[32mEmpresa com mais produtos:\033[0m"
         + " \033[31mCoca-Cola Company\033[0m"
     )
